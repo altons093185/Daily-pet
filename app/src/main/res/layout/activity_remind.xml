@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFBE6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".remind_dontuse">
+
+    <Button
+        android:id="@+id/drugs"
+        android:layout_width="383dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center_vertical"
+        android:text="吃藥"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/neddle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doctor" />
+
+    <Button
+        android:id="@+id/neddle"
+        android:layout_width="383dp"
+        android:layout_height="59dp"
+
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center_vertical"
+        android:text="注射預防針"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/clean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drugs" />
+
+    <Button
+        android:id="@+id/clean"
+        android:layout_width="383dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="208dp"
+        android:gravity="center_vertical"
+        android:text="清潔"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/neddle" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="42dp"
+        android:text="提醒"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/doctor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/doctor"
+        android:layout_width="383dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center_vertical"
+        android:text="看醫生"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/drugs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</android.support.constraint.ConstraintLayout>

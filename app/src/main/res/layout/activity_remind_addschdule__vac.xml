@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBE6"
+    tools:context=".remind_addschdule_Vac">
+
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="411dp"
+        android:layout_height="1dp"
+
+
+        android:layout_marginTop="106dp"
+        android:layout_marginBottom="36dp"
+        android:background="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/newschtitle4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addsch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="#d5d5d5"
+        android:text="加入"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancel4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="20dp"
+        android:background="#d5d5d5"
+        android:text="取消"
+        android:textColor="#ff0000"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="33dp"
+        android:text="新增行程"
+        android:textColor="#000000"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/divider5"
+        app:layout_constraintEnd_toStartOf="@+id/addsch4"
+        app:layout_constraintStart_toEndOf="@+id/cancel4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/newschtitle4"
+        android:layout_width="387dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="28dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="標題"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/newschtime4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider5" />
+
+    <EditText
+        android:id="@+id/newschtime4"
+        android:layout_width="388dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="27dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="選擇時間"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/newschrepeat4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newschtitle4" />
+
+    <EditText
+        android:id="@+id/newschrepeat4"
+        android:layout_width="390dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="36dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="重複"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/newschhint4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newschtime4" />
+
+    <EditText
+        android:id="@+id/newschhint4"
+        android:layout_width="393dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="37dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="提示"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/newschmessage4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newschrepeat4" />
+
+    <EditText
+        android:id="@+id/newschmessage4"
+        android:layout_width="381dp"
+        android:layout_height="218dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="42dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="附註"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newschhint4" />
+</android.support.constraint.ConstraintLayout>

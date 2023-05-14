@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFBE6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recordexcretion">
+
+    <TextView
+        android:id="@+id/Today"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="90dp"
+        android:text="今日紀錄"
+        android:textAlignment="viewStart"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/S"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="311dp"
+        android:text="小便"
+        android:textAlignment="viewStart"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="140dp"
+        android:text="大便"
+        android:textAlignment="viewStart"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/T1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="139dp"
+        android:text="次"
+        android:textAlignment="viewStart"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/T2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="303dp"
+        android:layout_marginTop="316dp"
+        android:text="次"
+        android:textAlignment="viewStart"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/ST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="141dp"
+        android:text="00"
+        android:textAlignment="viewStart"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/BT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="316dp"
+        android:text="00"
+        android:textAlignment="viewStart"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/BT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="8dp"
+        android:text="上次紀錄時間"
+        android:textAlignment="viewStart"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/History"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="520dp"
+        android:text="歷史紀錄"
+        android:textAlignment="viewStart"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="658dp" />
+
+    <Button
+        android:id="@+id/AD_NewP"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="520dp"
+        android:text="新增"
+        android:textAlignment="viewStart"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="658dp" />
+
+    <EditText
+        android:id="@+id/LsPData"
+        android:layout_width="152dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textAlignment="viewStart"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/sitution1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="398dp"
+        android:text="狀況"
+        android:textAlignment="viewStart"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:id="@+id/sitution2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="199dp"
+        android:text="狀況"
+        android:textAlignment="viewStart"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <EditText
+        android:id="@+id/rcsitution1"
+        android:layout_width="wrap_content"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="199dp"
+        android:background="#d5d5d5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <EditText
+        android:id="@+id/rcstution2"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="394dp"
+        android:background="#d5d5d5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+</RelativeLayout>

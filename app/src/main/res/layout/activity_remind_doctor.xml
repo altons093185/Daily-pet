@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFBE6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".remind_doctor">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="183dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="45dp"
+        android:text="看醫生提醒"
+        android:textAlignment="viewStart"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+
+    <ImageButton
+        android:id="@+id/img_btn_doc"
+        android:layout_width="87dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="508dp"
+        android:background="#ffffff"
+        android:textAlignment="viewStart"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <TextView
+        android:id="@+id/redoctor02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="171dp"
+        android:text="選擇時間:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/redoctor03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="218dp"
+        android:text="重複:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/redoctor04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="264dp"
+        android:text="提示:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/redoctor05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="312dp"
+        android:text="附註:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/redoctor01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="121dp"
+        android:text="標題:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp"/>
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

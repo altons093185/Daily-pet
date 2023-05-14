@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFBE6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".remindclear">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/img_btn_clean"
+        android:layout_width="76dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginBottom="178dp"
+        android:background="#ffffff"
+        android:textAlignment="viewStart"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <TextView
+        android:id="@+id/Clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="48dp"
+        android:text="清潔提醒"
+        android:textAlignment="viewStart"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/reclear01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="119dp"
+        android:text="標題:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/reclear02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="173dp"
+        android:text="選擇時間:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/reclear03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="223dp"
+        android:text="重複:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/reclear04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="277dp"
+        android:text="提示:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/reclear05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="333dp"
+        android:text="附註:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

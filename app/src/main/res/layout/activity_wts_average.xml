@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBE6"
+    tools:context=".wts_average">
+
+    <TextView
+        android:id="@+id/lastrecordwater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView37"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/textView35"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="2dp"
+        android:text="上次紀錄:" />
+
+    <TextView
+        android:id="@+id/lastrecordtemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView36"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/textView31"
+        android:text="" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="96dp"
+        android:layout_toStartOf="@+id/analysis"
+        android:text="清空欄位"
+        android:background="#b9e4c9"
+        android:textColor="#356859"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="47dp"
+        android:layout_toEndOf="@+id/textView36"
+        android:ems="7"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="76dp"
+        android:text="今日喝水量"
+        android:textColor="#356859"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setupToolbar"
+        android:layout_marginTop="38dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="80dp"
+        android:text="今 日 步 數"
+        android:textColor="#356859"
+        android:textSize="22dp" />
+
+    <android.support.v7.widget.Toolbar
+android:id="@+id/setupToolbar"
+android:layout_width="match_parent"
+android:layout_height="56dp"
+android:background="#F3D040">
+</android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/setupToolbar"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="115dp"
+        android:layout_toEndOf="@+id/backknow2"
+        android:text="寵物健康估算"
+        android:textSize="28dp" />
+
+    <ImageView
+        android:id="@+id/backknow2"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/setupToolbar"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/back1" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="80dp"
+        android:text="今 日 體 溫"
+        android:textColor="#356859"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="50dp"
+        android:layout_toEndOf="@+id/textView37"
+        android:ems="7"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText6"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="65dp"
+        android:layout_toEndOf="@+id/textView38"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/analysis"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="96dp"
+        android:background="#b9e4c9"
+        android:textColor="#356859"
+        android:text="分析" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="2dp"
+        android:text="上次紀錄:" />
+
+
+</RelativeLayout>

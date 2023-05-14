@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="首頁"/>
+        
+
+        <item android:id="@+id/nav_petinfo"
+            android:icon="@drawable/ic_petinfo"
+            android:title="寵物資訊"/>
+
+        <item android:id="@+id/nav_remind"
+            android:icon="@drawable/ic_remind"
+            android:title="提醒"/>
+
+        <item android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="小知識"/>
+
+        <item android:id="@+id/nav_wts_average"
+            android:icon="@drawable/ic_wts"
+            android:title="健康評估"/>
+
+
+        <item android:id="@+id/nav_call"
+            android:icon="@drawable/ic_call"
+            android:title="呼叫"/>
+
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/icon_logout"
+            android:title="登出"/>
+
+
+
+    </group>
+
+
+
+</menu>

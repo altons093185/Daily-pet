@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFBE6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reminddrug">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/img_btn_drug"
+        android:layout_width="74dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="493dp"
+        android:layout_marginBottom="178dp"
+        android:background="#ffffff"
+        android:textAlignment="viewStart"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <TextView
+        android:id="@+id/Drug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="51dp"
+        android:text="用藥提醒:"
+        android:textAlignment="viewStart"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/redrug01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="121dp"
+        android:text="標題:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/drug02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="176dp"
+        android:text="選擇時間:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/drug03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="236dp"
+        android:text="重複:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/drug04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="285dp"
+        android:text="提示:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/drug05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="339dp"
+        android:text="附註:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFBE6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".remindvac">
+
+    <TextView
+        android:id="@+id/Vaccination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="51dp"
+        android:text="預防針提醒"
+        android:textAlignment="viewStart"
+        android:textSize="35dp" />
+
+    <ImageButton
+        android:id="@+id/img_btn_vac"
+        android:layout_width="76dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginBottom="178dp"
+        android:background="#ffffff"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <TextView
+        android:id="@+id/revac01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="123dp"
+        android:text="標題:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/revac02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="184dp"
+        android:text="選擇時間:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/revac03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="354dp"
+        android:text="重複"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/revac04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="233dp"
+        android:text="提示:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/revac05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="293dp"
+        android:text="附註:"
+        android:textAlignment="viewStart"
+        android:textSize="22dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Daily pet</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_place_key">AIzaSyAbUG6SK_zD16zOfkvT6VQNGFAwNQC94go</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- alarm -->
+    <string name="no_cardetails">Click on the button below to begin creating your reminder!</string>
+    <string name="title_activity_add_reminder">新增提醒</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+    <string name="add_reminder">新增標題</string>
+    <string name="details">Details</string>
+    <string name="date">日期</string>
+    <string name="time">時間</string>
+    <string name="repeat">是否重複</string>
+    <string name="repeat_off">不重複</string>
+    <string name="repeat_no">重複間隔 </string>
+    <string name="repeat_type">間隔類型</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">確定要刪除提醒嗎?</string>
+
+    <string name="delete">刪除</string>
+
+    <string name="cancel">取消</string>
+    <string name="editor_delete_reminder_successful">已刪除</string>
+
+    <string name="editor_delete_reminder_failed">刪除錯誤</string>
+
+    <string name="editor_insert_reminder_successful">已儲存</string>
+
+    <string name="editor_insert_reminder_failed">儲存錯誤</string>
+
+    <string name="editor_update_reminder_successful">已更新</string>
+
+    <string name="editor_update_reminder_failed">更新錯誤</string>
+
+    <string name="reminder_title">AlarmReminder</string>
+
+</resources>

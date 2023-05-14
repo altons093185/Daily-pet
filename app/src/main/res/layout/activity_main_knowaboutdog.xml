@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bkg_home3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/back5"
+            android:layout_width="79dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="329dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/knowdog"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:text="狗的基本認識"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/EXP1"
+            android:layout_width="match_parent"
+            android:layout_height="530dp"
+            android:text="         狗是人類最早馴養的一個物種。有人飼養的稱為家犬，無人飼養的狗稱常被稱為「野狗」或「流浪狗」，可能對環境造成各種問題。
+         犬的壽命最多可達二十多年，平均則為十數年，與貓的平均壽命相近。若無發生意外，平均壽命以小型犬為長。
+         狗在與人的長期互動中習得了與人類行為和諧一致的特殊習性，更獲得了靠高澱粉飲食茁壯成長的能力，為犬科動物中的奇葩。各種狗的形狀、大小、毛色都有顯著不同。
+         狗可用作陪伴、看家護院、捕獵、放牧、載貨、拉車、警用、軍用、做寵物、幫助身障人士等，因此有「人類的好朋友」這一美譽。
+         今天，家犬的種類已達數百個品種，其中多數犬種出現是近幾百年的事。人們根據需要培育了許多不同的品種。身高從只有15.2厘米的吉娃娃到76厘米的愛爾蘭獵狼犬，顏色也從白色到黑、灰或棕。
+         以上文章來自網路文章"
+            android:textColor="@android:color/black"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
